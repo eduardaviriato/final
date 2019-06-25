@@ -249,7 +249,7 @@
             "UserData": {"Fn::Base64": { "Fn::Join": ["", [
                "#!/bin/bash -ex \n",
                "export IPBD=", {"Fn::GetAtt": ["ServidorBD", "PrivateIp"]}, "\n",
-               "wget https://raw.githubusercontent.com/eduardaviriato/final/master/wordpress.sh \n",
+               "wget https://raw.githubusercontent.com/eduardaviriato/final/master/teste.sh \n",
                "chmod +x teste.sh \n",
                "export USER=", {"Ref": "WordPressUser"}, "\n",
                "export PASS=", {"Ref": "WordPressPassword"}, "\n",
